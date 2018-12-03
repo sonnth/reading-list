@@ -1,0 +1,22 @@
+<div>
+<table>
+  <thead>
+  <tr>
+    <th class="hidden">ID</th>
+    <th>Book</th>
+    <th>Read</th>
+    <!--<th>Edit</th>-->
+    <!--<th>Delete</th>-->
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let book of ibook">
+    <td class="hidden">{{book.id}}</td>
+    <td>{{book.name}}</td>
+    <td>{{book.read}}</td>
+    <!--<td><button (click)="editUser(book)"  style="margin-left: 20px; background-color: darkturquoise; border: darkturquoise" >Edit</button></td>-->
+    <!--<td><button (click)="deleteBook(book)" >Delete</button></td>-->
+  </tr>
+  </tbody>
+</table>
+</div>
